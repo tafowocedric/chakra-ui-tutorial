@@ -15,7 +15,7 @@ const RootLayout = () => {
       >
         <Sidebar />
       </GridItem>
-      <GridItem as="main" colSpan={5} p="40px">
+      <GridItem as="main" colSpan={5} px="40px" py="20px">
         <Navbar />
         <Outlet />
       </GridItem>
